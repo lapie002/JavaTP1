@@ -273,33 +273,33 @@ public class JavaTP1 {
       
       
       // exo 10
-      int matrice[][] = { {7,8,9,10,0},{4,5,6,0,10},{2,3,0,6,9},{1,0,3,5,8},{0,1,2,4,7} };
-        
-      int temp = 0;
-      
-      int i;
-      int j;
-      
-      for(i=0;i<5;i++)
-      {
-            for(j=i+1;j<5;j++)
-            {
-                temp = matrice[i][j];
-                matrice[i][j] = matrice[j][i];
-                matrice[j][i] = temp;
-            }
-      }
-      
-      //affichage
-      for(i=0;i<5;i++)
-      {
-            for(j=0;j<5;j++)
-            {
-                System.out.print(matrice[i][j] + " ");
-            }
-            System.out.println();
-      }
-      
+//      int matrice[][] = { {7,8,9,10,0},{4,5,6,0,10},{2,3,0,6,9},{1,0,3,5,8},{0,1,2,4,7} };
+//        
+//      int temp = 0;
+//      
+//      int i;
+//      int j;
+//      
+//      for(i=0;i<5;i++)
+//      {
+//            for(j=i+1;j<5;j++)
+//            {
+//                temp = matrice[i][j];
+//                matrice[i][j] = matrice[j][i];
+//                matrice[j][i] = temp;
+//            }
+//      }
+//      
+//      //affichage
+//      for(i=0;i<5;i++)
+//      {
+//            for(j=0;j<5;j++)
+//            {
+//                System.out.print(matrice[i][j] + " ");
+//            }
+//            System.out.println();
+//      }
+//      
       
       
    } 

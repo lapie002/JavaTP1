@@ -22,6 +22,9 @@ public class JavaTP1 {
         
         Scanner sc = new Scanner(System.in);
         
+         JavaTP1 s = new JavaTP1();  
+         System.out.println(s instanceof JavaTP1);//true  
+        
         // exo 1
         /*
         System.out.println("Veuillez saisir un nombre : ");
